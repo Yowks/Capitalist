@@ -1,0 +1,24 @@
+{
+  "name": "capitalist",
+  "version": "1.0.0",
+  "description": "MDS capitalist nw.js project",
+  "main": "index.html",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yowks/Capitalist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yowks/Capitalist/issues"
+  },
+  "homepage": "https://github.com/Yowks/Capitalist#readme",
+  "devDependencies": {
+    "nw": "^0.52.2-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}

@@ -1,0 +1,20 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+}
+
+canvas { 
+    background: rgb(145, 144, 144); 
+    display: block; 
+    margin: 0 auto; 
+}
+
+#restart {
+    color: black;
+    background: white;
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 10px;
+    border: none;
+    left: 50%;
+}
